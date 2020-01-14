@@ -1,0 +1,74 @@
+.singlebutton {
+    width: 75;
+    height: 75;
+    padding: 7.5;
+    margin: 3.5;
+}
+
+.doublebutton {
+    width: 150;
+    height: 75;
+    padding: 7.5;
+    margin: 3.5 7 3.5 7;
+}
+
+.button, #textbox {
+    opacity: 0.8;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 5px 5px 3px black;
+}
+
+.button {
+    font-size: 33;
+}
+
+#textbox {
+    margin-top: 7.5;
+    margin-bottom: 0;
+    margin-right: 7.5;
+    margin-left: 7.5;
+    padding: 7.5;
+    width: 333;
+    font-size: 27;
+    height: 75;
+    font-family: monospace;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(182,72,28,1) 70%, rgba(240,1,22,1) 100%);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    color: white;
+    opacity: 0.8;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+.heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+.heading h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
